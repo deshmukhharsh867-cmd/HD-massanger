@@ -3,4 +3,4 @@ buildCommand = "npm install --prefix server && npm install --prefix client && np
 
 [deploy]
 startCommand = "node server/server.js"
-restartPolicyType = "on-failure"
+restartPolicyType = "ON_FAILURE"
